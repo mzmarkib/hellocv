@@ -1,0 +1,193 @@
+@font-face{
+    font-family:'gilroy', sans-serif;
+    src:url(../fonts/gilroy/Gilroy-ExtraBold.otf);
+}
+@font-face{
+    font-family:'gilroy', sans-serif;
+    src:url(../fonts/gilroy/Gilroy-Light.otf);
+}
+.wrapper{
+    max-width: 816px;
+    height: 1056px;
+    margin: 0 auto;
+}
+.body-inner-item{
+    border: 1px solid red;
+    margin: 10px;
+}
+.b-l{
+	border-bottom: 3px solid black;
+	margin-bottom: 20px;
+}
+.circle img {
+    height: 180px;
+    width: 180px;
+    border-radius: 50%;
+    margin: 15px 0;
+}
+.c-name {
+    margin-top: 15px;
+}
+.j-n {
+    font-family: 'gilroy', sans-serif;
+    font-weight: 300;
+    font-size: 75px;
+    color: #191919;
+    margin-left: 8px;
+}
+.d-n {
+    font-family: 'gilroy', sans-serif;
+    font-weight: 800;
+    font-size: 75px;
+    color: #191919;
+    margin-top: -20px;
+}
+.about-p{
+    font-family: 'gilroy', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #191919;
+    margin: 10px 0;
+}
+/*contact start*/
+.b-r{
+	border-right: 3px solid black;
+}
+.c-bar h2{
+    font-family:'gilroy', sans-serif;
+    font-weight: 800;
+    font-size: 23px;
+    text-transform: uppercase;
+    margin-top: 15px;
+}
+.c-bar hr {
+    border-bottom: 3px solid black;
+    width: 68%;
+    margin-left: 0;
+    margin-top: -4px;
+}
+.s-con{
+    margin: 25px 0;
+}
+.icon{
+    font-size: 20px;
+}
+.icon-content{
+    font-family: 'gilroy', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+}
+.ct-1{
+    font-family: 'gilroy', sans-serif;
+    font-weight: 800;
+    font-size: 17px;
+    color: #191919;
+    text-transform: uppercase;
+    margin: 0 0 5px 0;
+}
+.ct-2{
+    font-family: 'gilroy', sans-serif;
+    font-weight: 300;
+    font-size: 17px;
+    color: #191919;
+    text-transform: uppercase;
+    margin: 0 0 0 0;
+}
+.ct-3{
+    font-family: 'gilroy', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    color: #191919;
+    margin: 0 0 0 0;
+}
+/*reference start*/
+.ct-4{
+    font-family: 'gilory', sans-serif;
+    font-weight: 300;
+    font-size: 17px;
+    color: #191919;
+    margin: 0 0 0 0;
+}
+.reference {
+    margin-bottom: 153px;
+}
+/*reference end*/
+.experience {
+    margin-bottom: 75px;
+}
+.bottom-bar {
+    width: 37%;
+    padding: 15px 0;
+    background-color: black;
+    margin-left: 27px;
+    margin-top: -28px;
+}
+
+
+
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+	.b-l {
+	    border-bottom: 0;
+	    margin-bottom: 0;
+	}
+    .c-name {
+        margin-top: 37px;
+    }
+    .j-n {
+        font-size: 39px;
+    }
+    .d-n {
+        font-size: 39px;
+    }
+    .circle img {
+        height: 130px;
+        width: 130px;
+    }
+    .experience {
+        margin-bottom: 0px;
+    }
+    .reference {
+        margin-bottom: 30px;
+    }
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+		.b-l {
+		    border-bottom: 0;
+		    margin-bottom: 0;
+		}
+	    .c-name {
+	        margin-top: 37px;
+	    }
+	    .j-n {
+	        font-size: 55px;
+	    }
+	    .d-n {
+	        font-size: 55px;
+	    }
+	    .circle img {
+	        height: 180px;
+	        width: 180px;
+	    }
+	    .experience {
+	        margin-bottom: 0px;
+	    }
+	    .reference {
+	        margin-bottom: 30px;
+	    }
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+}
+	

@@ -1,0 +1,12 @@
+#jQueryProgressFormBar > div{
+    display: block;
+    background: red;
+    width: 0;
+    white-space: nowrap;
+}
+#jQueryProgressFormBar > div.warn{
+    background: yellow;
+}
+#jQueryProgressFormBar > div.error{
+    background: red;
+}

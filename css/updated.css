@@ -1,0 +1,208 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700&display=swap");
+* {
+  -webkit-box-sizing: border-box !important;
+          box-sizing: border-box !important;
+  font-family: "Montserrat" !important;
+}
+
+.row {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.creation-process {
+  padding-top: 20px;
+}
+
+.creation-process h3 {
+  color: #B2B2B2;
+  text-transform: uppercase;
+}
+
+.header {
+  position: relative;
+  height: calc(100vh + 100px);
+}
+
+.header .navbar-brand img {
+  max-height: 50px;
+  width: auto;
+}
+
+.header .hero-img {
+  z-index: 10;
+  position: absolute;
+}
+
+.header .per {
+  z-index: 0;
+  bottom: 0;
+  right: 0;
+  height: calc(100% - 100px);
+  width: auto;
+}
+
+.header .topcurve {
+  width: calc(100% + 23px);
+  bottom: 0;
+  left: 0;
+  margin: -13px;
+}
+
+.header .navbar .navbar-nav {
+  text-transform: uppercase;
+  font-family: "Montserrat";
+}
+
+.header .navbar .navbar-nav .nav-item a {
+  font-family: "Montserrat";
+  padding: 5px 10px;
+  margin: 5px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.header .navbar .navbar-nav .nav-item .getfree_button {
+  border: none;
+  border-radius: 50px;
+  background-color: #00DB65;
+  padding: 10px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  font-weight: 700 !important;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.header .navbar .navbar-nav .nav-item .getfree_button:hover {
+  border: 1px solid #00DB65;
+  background-color: transparent;
+  padding: 9px;
+}
+
+.header .hero-slider {
+  width: 100%;
+}
+
+.header .hero-slider .carousel-control div {
+  background-color: #444;
+  width: 40px;
+  height: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-radius: 100%;
+}
+
+.header .hero-slider .carousel-control div i {
+  margin: auto;
+}
+
+.header .hero-slider .slide {
+  height: 100%;
+}
+
+.header .hero-slider .slide h1, .header .hero-slider .slide h2, .header .hero-slider .slide .getquote {
+  font-family: "Montserrat";
+}
+
+.header .hero-slider .slide h1 {
+  font-weight: 700;
+}
+
+.header .hero-slider .slide h2 {
+  font-weight: 100;
+  font-size: 2em;
+}
+
+.header .hero-slider .slide h2 strong {
+  font-weight: 600;
+}
+
+.header .hero-slider .slide .getquote {
+  border-radius: 10px;
+  font-weight: 500;
+}
+
+.sign-process h4 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.sign-process h4 .icon {
+  height: 50px;
+  width: 50px;
+  margin-top: -15px;
+  margin-right: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.creation-process {
+  padding-bottom: 0;
+}
+
+.new-job {
+  background-color: #fff;
+  padding-top: 0;
+}
+
+.new-job h2 {
+  color: #B2B2B2;
+}
+
+@media (max-width: 576px) {
+  .header {
+    position: relative;
+    height: 100vh;
+  }
+  .header h1 {
+    margin-top: 50px;
+  }
+}
+
+@media (max-width: 768px) {
+  .header {
+    position: relative;
+    height: 100vh;
+  }
+  .sign-process {
+    padding: 10px;
+  }
+}
+
+@media (max-width: 992px) {
+  .header {
+    position: relative;
+    height: 100vh;
+  }
+  .slide {
+    height: 100%;
+  }
+  .slide h1, .slide h2, .slide .getquote {
+    font-family: "Montserrat";
+  }
+  .slide h1 {
+    font-weight: 700;
+    font-size: 3em;
+  }
+  .slide h2 {
+    font-weight: 100;
+    font-size: 1em;
+    margin-top: 10px;
+  }
+  .slide h2 strong {
+    font-weight: 600;
+  }
+  .slide .getquote {
+    border-radius: 5px;
+    font-weight: 500;
+    padding: 5px 10px;
+  }
+  .sign-process {
+    padding: 15px;
+  }
+}
+/*# sourceMappingURL=updated.css.map */

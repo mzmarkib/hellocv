@@ -1,0 +1,209 @@
+@font-face{
+    font-family:'gilroy', sans-serif;
+    src:url(../fonts/gilroy/Gilroy-ExtraBold.otf);
+}
+@font-face{
+    font-family:'gilroy', sans-serif;
+    src:url(../fonts/gilroy/Gilroy-Light.otf);
+}
+.wrapper{
+    max-width: 816px;
+    height: 1056px;
+    margin: 0 auto;
+}
+.body-inner-item{
+    border: 1px solid red;
+    margin: 10px;
+}
+/*left start*/
+.b-r{
+    border-right: 4px solid black;
+    margin-top: 60px;
+}
+.circle img {
+    height: 180px;
+    width: 180px;
+    border-radius: 50%;
+    border: 5px solid black;
+}
+.c-name h1 {
+    font-family: 'gilroy', sans-serif;
+    font-weight: 800;
+    font-size: 35px;
+    color: #191919;
+    margin: 20px 60px 47px 0px;
+}
+/*contact start*/
+.c-bar h2{
+    font-family:'gilroy', sans-serif;
+    font-weight: 800;
+    font-size: 25px;
+    text-transform: uppercase;
+    margin-top: 15px;
+}
+.s-con{
+    margin: 25px 0;
+}
+.icon{
+    font-size: 20px;
+}
+.icon-content{
+    font-family: 'gilroy', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+}
+.contact{
+    margin-bottom: 410px;
+}
+/*contact end*/
+/*left end*/
+/*right start*/
+.about-text p{
+    font-family: 'gilroy', sans-serif;
+    font-weight: 300;
+    font-size: 17px;
+    margin: 15px 0 0 0;
+}
+.ct-1{
+    font-family: 'gilroy', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    color: #191919;
+    text-transform: uppercase;
+    margin: 0 0 5px 0;
+}
+.ct-2{
+    font-family: 'gilroy', sans-serif;
+    font-weight: 300;
+    font-size: 17px;
+    color: #191919;
+    text-transform: uppercase;
+    margin: 0 0 0 0;
+}
+.ct-3{
+    font-family: 'gilroy', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    color: #191919;
+    margin: 0 0 0 0;
+}
+/*reference start*/
+.ct-4{
+    font-family: 'gilory', sans-serif;
+    font-weight: 300;
+    font-size: 17px;
+    color: #191919;
+    margin: 0 0 0 0;
+}
+.reference{
+    margin-bottom: 30px;
+}
+/*reference end*/
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+	.b-r {
+	    border-right: 0;
+	    margin-top: 20px;
+	}
+	.circle{
+		text-align: center;
+	}
+	.circle img {
+	    margin: 0;
+	}
+	.c-name h1 {
+	    margin: 20px 0px 35px 0px;
+	}
+	.c-bar h2 {
+	    font-size: 24px;
+	    margin-top: 15px;
+	}
+	.icon-content {
+	    font-size: 17px;
+	}
+	.contact {
+	    margin-bottom: 20px;
+	}
+    .about-text p {
+        font-size: 16px;
+        margin: 15px 0 0 0;
+    }
+    .ct-1 {
+    	font-size: 16px;
+    }
+    .ct-2 {
+        font-size: 16px;
+    }
+    .ct-3 {
+        font-size: 16px;
+    }
+    .ct-4 {
+        font-size: 17px;
+    }
+    .reference {
+        margin-bottom: 30px;
+    }
+
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+		.b-r {
+		    border-right: 0;
+		    margin-top: 20px;
+		}
+		.circle{
+			text-align: center;
+		}
+		.circle img {
+		    margin: 0;
+		}
+		.c-name h1 {
+		    margin: 20px 0px 35px 0px;
+		}
+		.c-bar h2 {
+		    font-size: 24px;
+		    margin-top: 15px;
+		}
+		.icon-content {
+		    font-size: 17px;
+		}
+		.contact {
+		    margin-bottom: 20px;
+		}
+	    .about-text p {
+	        font-size: 17px;
+	        margin: 15px 0 0 0;
+	    }
+	    .ct-1 {
+	    	font-size: 18px;
+	    }
+	    .ct-2 {
+	        font-size: 18px;
+	    }
+	    .ct-3 {
+	        font-size: 17px;
+	    }
+	    .ct-4 {
+	        font-size: 18px;
+	    }
+	    .reference {
+	        margin-bottom: 30px;
+	    }
+
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+	
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+}
+	

@@ -1,0 +1,300 @@
+/*font-family: 'Montserrat', sans-serif;*/
+@font-face{
+    font-family:'gilroy', sans-serif;
+    src:url(../fonts/gilroy/Gilroy-Light.otf);
+}
+.wrapper{
+    max-width: 816px;
+    height: 1056px;
+    margin: 0 auto;
+}
+.body-inner-item{
+    border: 1px solid red;
+    margin: 10px;
+    position: relative;
+    z-index: 9999;
+}
+.b-l {
+    border-left: 15px solid #e9e7e8;
+    margin-left: -15px;
+}
+.bl-content{
+	margin-left: 16px;
+}
+.circle img {
+    height: 180px;
+    width: 180px;
+    border-radius: 50%;
+    margin: 15px 0;
+}
+/*contact start*/
+.common-bar h1{
+		font-family: 'Montserrat', sans-serif;
+	    font-weight: 700;
+	    font-size: 25px;
+	    color: #191919;
+	    margin: 5px 0;
+	    text-transform: uppercase;
+}
+.s-con{
+    margin: 16px 0;
+}
+.icon{
+    font-size: 20px;
+}
+.icon-content{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+/*contact end*/
+/*refernece start*/
+.reference {
+    background-color: #e9e7e8;
+    margin-left: 15px;
+    padding-bottom: 255px;
+}
+.ct-1{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 17px;
+    color: #191919;
+    text-transform: uppercase;
+    margin: 0 0 5px 0;
+}
+.ct-2{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;;
+    font-size: 17px;
+    color: #191919;
+    text-transform: uppercase;
+    margin: 0 0 0 0;
+}
+.ct-3{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #191919;
+    margin: 0 0 0 0;
+}.ct-4{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    color: #191919;
+    margin: 0 0 0 0;
+}
+/*reference end*/
+.right{
+	margin-left: 10px;
+}
+.c-name{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 58px;
+    color: #191919;
+    margin-top: 84px;
+}
+/*about start*/
+.about-bar{
+	margin-top: 56px;
+}
+.c-bar h1{
+	position: relative;
+	font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+	font-size: 25px;
+	color: #191919;
+	margin: 5px 0;
+	text-transform: uppercase;
+}
+.c-bar span {
+    position: absolute;
+    right: -1px;
+    bottom: 15px;
+    width: 61%;
+    height: 2px;
+    background-color: #191919;
+}
+.about-p{
+	font-family: 'gilroy', sans-serif;
+    font-weight: 300;
+    font-size: 17px;
+    color: #191919;
+    margin: 5px 0;
+}
+/*about end*/
+/*experience start*/
+.ex-bar span{
+	width: 58%;
+}
+/*experience end*/
+
+
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+	.wrapper {
+	    max-width: 100% !important;
+	    height: auto;
+	    margin: 0 auto;
+	}
+	.b-l {
+	    border-left: none;
+	    margin-left: 0;
+	}
+	.bl-content{
+		margin-left: 0;
+	}
+	.c-name {
+		font-size: 40px;
+	    margin-top: 18px;
+	    margin-bottom: 20px;
+	    text-align: center;
+	}
+	.c-name {
+	    margin-top: 18px;
+	    margin-bottom: 20px;
+	}
+	.right {
+	    margin-left: 0;
+	}
+	.about-bar {
+	    margin-top: 15px;
+	}
+	.c-bar h1 {
+	    font-size: 22px;
+	}
+	.c-bar span {
+	    right: -11px;
+	    width: 48%;
+	}
+	.ex-bar span {
+	    width: 46%;
+	}
+	.con-bar span{
+        width: 58%;
+	}
+	.icon {
+	    font-size: 20px;
+	}
+	.icon-content {
+	    font-size: 16px;
+	}
+	.reference2{
+		margin-bottom: 30px;
+	}
+
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+	.wrapper {
+		    max-width: 100% !important;
+		    height: auto;
+		    margin: 0 auto;
+		}
+    .custom-container{
+        	max-width: 100%;
+	}
+		.b-l {
+		    border-left: none;
+		    margin-left: 0;
+		}
+		.bl-content{
+			margin-left: 0;
+		}
+		.c-name {
+			font-size: 40px;
+		    margin-top: 18px;
+		    margin-bottom: 20px;
+		    text-align: center;
+		}
+		.c-name {
+		    margin-top: 18px;
+		    margin-bottom: 20px;
+		}
+		.right {
+		    margin-left: 0;
+		}
+		.about-bar {
+		    margin-top: 15px;
+		}
+		.about-bar span{
+			width: 72%;
+		}
+		.c-bar h1 {
+		    font-size: 25px;
+		}
+		.c-bar span {
+		    right: -11px;
+		    width: 69%;
+		}
+		.ex-bar span {
+		    width: 68%;
+		}
+		.con-bar span {
+		    width: 75%;
+		}
+		.icon {
+		    font-size: 20px;
+		}
+		.icon-content {
+		    font-size: 16px;
+		}
+		.reference2{
+			margin-bottom: 30px;
+		}
+
+
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+		.custom-container{
+	    	max-width: 100%;
+		}
+		.wrapper {
+		    max-width: 100% !important;
+		    height: auto;
+		    margin: 0 auto;
+		}
+		.common-bar h1 {
+		    font-size: 24px;
+		}
+		.circle img {
+		    margin: 10px 0;
+		}
+		.icon-content {
+		    font-size: 16px;
+		}
+		.about-bar {
+		    margin-top: 41px;
+		}
+		.c-bar h1 {
+		    font-size: 21px;
+		}
+		.about-p {
+		    margin: 0;
+		    font-size: 16px;
+		}
+		.ct-1{
+			font-size: 15px;
+		}
+		.ct-2{
+			font-size: 15px;
+		}
+		.ct-3{
+			font-size: 14px;
+		}
+		.ct-4{
+			font-size: 15px;
+		}
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+}
+	

@@ -1,0 +1,158 @@
+/*==============*/
+/*Responsive CSS*/
+@media all and (max-width: 991px) {
+	ul.navbar-nav {
+		padding-left: 30px !Important;
+	}
+	ul.navbar-nav .nav-item:nth-child(6) {
+		padding-left: 10px;
+	}
+	.header a.get-job img {
+		width: 100%;
+		height: auto;
+	}
+	.reasons img {
+	    width: auto;
+		margin: 0 auto;
+	    padding-bottom: 30px;
+	}
+	.reasons .col-md-6 {
+		width: 100% !important;
+		max-width: 100% !important;
+		display: contents;
+	}
+	.footer2 .footer-search button {
+		width: calc(100% - 70%);
+		padding: 12px;
+	}
+	.footer2 input[type="search"] {
+		max-width: 63%; 
+		width: 63%;
+	}
+	.footer-black-non-transparent .footer-search input {
+		width: auto;
+	}
+}
+@media all and (max-width: 767px) {
+	.header h1 {
+	    font-size: 25px;
+	}
+	.header h2 {
+		font-size: 20px;
+	}
+	.header .getquote {
+	    font-size: 14px;
+	}
+	.footer2 .upper-footer img {
+	    position: static;
+	}
+	.footer2 .upper-footer .prof-img {
+		width: 100%;
+		max-width: 100%;
+		position: relative;
+		text-align: center;
+	}
+	.footer-black-non-transparent .footer-search .form-search.active,
+	.footer-black-non-transparent .footer-search input {
+		width:100%;
+	}
+	.right-button-social {
+		float: none;
+		margin-left: 0px;
+		width: 100%;
+		text-align: center;
+	}
+	.social-icon {
+		/* float: none; */
+		padding-top: 9px;
+		display: inline-block;
+	}
+	.footer-black-non-transparent ul li,
+	.footer-black-non-transparent h6 {
+		text-align: center;
+	}
+	.right-button-social {
+		width: 55%;
+		margin: 0 auto;
+		padding-top: 10px;
+	}
+	.second-footer-right .col-md-4:last-child {
+		text-align: center;
+	}
+	.second-footer-right .col-md-4 {
+		padding-top: 30px;
+	}
+	.footer2 .upper-footer {
+		    min-height: auto;
+    padding-bottom: 80px;
+	}
+}
+@media all and (max-width: 700px) {
+	.navbar.navbar-expand-sm .navbar-brand {
+		margin-left: 75px;
+	}
+}
+@media all and (max-width: 575px) {
+	.header-left {
+		padding-left: 15px;
+		padding-top: 0px;
+	}
+	.header .getquote {
+		margin-top: 0px;
+		padding: 11px 10px;
+	}
+	.reasons img {
+		width: 100%;
+		padding: 0px 15px;
+	}
+	.first-wigdet {
+		padding: 0px 15px;
+	}
+	.chckbox {
+		width: 100%;
+	}
+	.new-job .getquote {
+		font-size: 15px;
+		padding: 11px 15px;
+	}
+	.footer3 .copy-write,
+	.cp {
+		padding-left: 30px;
+		text-align: center;
+	}
+	.footer2 .social-buttons-wigdet {
+		float: none;
+		width: 100%;
+		padding-left: 30px;
+	}
+	.footer2 .social-buttons-wigdet ul {
+	    display: inline-block;
+		text-align: center;
+		width: 100%;
+	}
+	.footer2 .getquote {
+		margin-right: auto;
+	}
+	.footer2 .upper-footer label {
+		width: 100%;
+	}
+	.footer3 .copy-write {
+		width: 100%;
+		text-align: center;
+	}
+	.footer-black-non-transparent .footer-search input {
+		width: auto;
+	}
+	.footer-black-non-transparent .footer-search .form-search.active {
+	    margin: 0 auto;
+		text-align: center;
+		width: auto;
+	}
+}
+@media all and (max-width: 480px) {
+	.footer-black-non-transparent .footer-search input {
+		width: 100%;
+		margin-bottom: 10px;
+	}
+	
+}
